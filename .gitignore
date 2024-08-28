@@ -1,2 +1,5 @@
 myenv/
 decision-forests/
+modeloDenso.keras
+modeloCNN.keras
+modeloCNN2.keras
