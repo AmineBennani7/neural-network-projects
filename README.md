@@ -1,6 +1,6 @@
 # Neural Network Projects
 
-This repository contains four different neural network projects. These exercises have been important for me to learn about neural networks during my studies at university.
+This repository contains five different neural network projects. These exercises have been important for me to learn about neural networks during my studies at university.
 
 ## 1. Celsius to Fahrenheit Conversion with a Simple Neural Network
 
@@ -67,3 +67,14 @@ This project involves classifying images of cats and dogs using a Convolutional 
 
 ### Note
 The implementation of data augmentation in this project is currently incomplete and may cause errors during training. Despite the addition of data augmentation to improve the model's performance, issues remain unresolved. The project is not yet fully functional, and additional work is needed to address these errors.
+
+## 5. Kitchen Utensils Classification with Transfer Learning
+
+### Description
+This project involves classifying images of kitchen utensils (spoon, fork, knife) using transfer learning with a pre-trained model.
+
+### Technical Details
+- **Model Architecture:** Utilizes a pre-trained MobileNetV2 model for feature extraction, followed by a custom Dense layer to classify images into one of three categories.
+- **Training Data:** Images of kitchen utensils (spoon, fork, knife) sourced from the internet and organized into three separate folders.
+- **Data Augmentation:** Applied to enhance the training dataset with transformations such as rotation, scaling, and shifting.
+
