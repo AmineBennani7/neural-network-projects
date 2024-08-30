@@ -1,11 +1,12 @@
 # Neural Network Projects
 
-This repository contains three different neural network projects. These exercises have been important for me to learn about neural networks during my studies at university.
+This repository contains four different neural network projects. These exercises have been important for me to learn about neural networks during my studies at university.
 
 ## 1. Celsius to Fahrenheit Conversion with a Simple Neural Network
 
 ### Description
 This project involves creating a simple neural network to convert temperatures from Celsius to Fahrenheit.
+
 - **Input Layer:** Receives the temperature in Celsius.
 - **Output Layer:** Produces the temperature in Fahrenheit.
 
@@ -20,8 +21,6 @@ This project involves creating a simple neural network to convert temperatures f
 ### Cons
 - Limited to problems where the relationship between input and output is simple and linear.
 - Does not generalize well to more complex tasks.
-
----
 
 ## 2. Clothing Classification with a Traditional Neural Network
 
@@ -40,12 +39,10 @@ This project involves classifying images of clothing items using a traditional n
 ### Cons
 - **Accuracy Issues:** The model may incorrectly classify images not related to clothing or misclassify personal photos of clothing. This is due to traditional neural networks treating each pixel as a distinct feature, which can limit their ability to generalize well from image data.
 
----
-
 ## 3. Clothing Classification with CNN, Dropout, and Data Augmentation
 
 ### Description
-This project employs a Convolutional Neural Network (CNN) for clothing classification, incorporating dropout and data augmentation techniques to improve performance .
+This project employs a Convolutional Neural Network (CNN) for clothing classification, incorporating dropout and data augmentation techniques to improve performance.
 
 ### Technical Details
 - **Model Architecture:** A CNN with convolutional layers, pooling layers, dropout for regularization, and data augmentation to enhance the dataset.
@@ -59,5 +56,14 @@ This project employs a Convolutional Neural Network (CNN) for clothing classific
 - **Complexity:** More complex to implement and requires more computational resources.
 - **Training Time:** Longer training times due to the increased model complexity and data augmentation.
 
----
+## 4. Cats vs. Dogs Image Classification with CNN and Data Augmentation
 
+### Description
+This project involves classifying images of cats and dogs using a Convolutional Neural Network (CNN). The network is designed to differentiate between images of cats and dogs.
+
+### Technical Details
+- **Model Architecture:** A CNN with multiple convolutional layers, pooling layers, and fully connected layers.
+- **Dataset:** A dataset of images containing cats and dogs, with labels indicating the class of each image.
+
+### Note
+The implementation of data augmentation in this project is currently incomplete and may cause errors during training. Despite the addition of data augmentation to improve the model's performance, issues remain unresolved. The project is not yet fully functional, and additional work is needed to address these errors.
