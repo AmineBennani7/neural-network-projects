@@ -66,7 +66,7 @@ This project involves classifying images of cats and dogs using a Convolutional 
 - **Dataset:** A dataset of images containing cats and dogs, with labels indicating the class of each image.
 
 ### Note
-The implementation of data augmentation in this project is currently incomplete and may cause errors during training. Despite the addition of data augmentation to improve the model's performance, issues remain unresolved. The project is not yet fully functional, and additional work is needed to address these errors.
+The implementation of data augmentation in this project is currently incomplete and may cause errors during training. The project is not yet fully functional, and additional work is needed to address these errors.
 
 ## 5. Kitchen Utensils Classification with Transfer Learning
 
